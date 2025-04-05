@@ -1,1 +1,6 @@
+Fewshot Example DB : link: https://drive.google.com/file/d/1e4WMjO2asZlheC_XX10Nt54VMI5m3muC/view?usp=sharing
 
+Fewshot Example DB—an external resource which we build (offline) for supporting our proposed RAG approaches. The fewshot example repository contains a collection of causal sentences with the cause
+and the effect phrases correctly tagged. Each ofthese sentences in this repository are also indexed by a causal connective. During causal inference
+using an LLM, given an input sentence both the RAG approaches judiciously retrieve relevant examples dynamically from the fewshot examplerepository, and augment the causality detection
+LLM prompts with these examples for improving LLM performance. 
